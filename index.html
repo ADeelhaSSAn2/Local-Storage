@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- <section id="main">
+        <h2>Sign-up</h2>
+    </section>
     <section  id="signup">
-<h2>Sign-up</h2>
 <p>UserName</p><input type="text" name="" id="user"/><br/>
 <p>Email</p> <input type="email" name="" id="signemail"/><br/>
 <p>Password</p><input type="password" name="" id="signpass"/><br/>
@@ -19,13 +22,32 @@
     <h2>Login</h2>
        <p>Email</p> <input type="email" name="" id="logemail"/><br/>
         <p>Password</p><input type="password" name="" id="logpass"/><br/>
-        <button>Login</button>
+        <button onclick="login()">Login</button>
+
+    </section>
+ -->
+
+
+    <section id="main">
+        <h2>Welcome <span id="span"></span></h2>
+    </section>
+    
+    <section id="signup">
+<h2>Sign-UP</h2>
+        <p>UserName</p><input type="text" name="" id="user">
+        <p>Email</p><input type="email" name="" id="semail">
+        <p>Password</p><input type="pass" name="" id="password">
+               <button onclick="signup()">SignUp</button>
 
     </section>
 
+    <section id="login">
+<h2>Login</h2>
+        <p>Email</p> <input type="email" name="" id="lemail">
+        <p>Password</p> <input type="password" name="" id="lpass">
+              <button onclick="login()">Login</button>
 
-
-    
-    <script src="script.js"></script>
+    </section>
+     <script src="script.js"></script>
 </body>
 </html>
